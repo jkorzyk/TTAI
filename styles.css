@@ -11,16 +11,17 @@ button {
     border-radius: 5px;
     background-color: gainsboro;
     border: 1px gainsboro;
-    width: auto;
+    width: 150px;
     font-size: 15px;
 }
-.input_div {
-    border-radius: 25px;
-    width: 600px;
-    font-size: 30px;
-    border: 2px solid gainsboro;
-    display: flex;
-    justify-content: space-around;
+.cls-input {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 30px;
+        border: 1px rgb(223, 225, 229) solid;
+        width: 500px;
+        height: 45px;
 }
 
 input{
@@ -53,7 +54,7 @@ a {
 
 }
 
-.btn:hover{
+button:hover{
     border: 2px lightgray;
 }
 
